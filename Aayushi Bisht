@@ -1,0 +1,16 @@
+def luckynum(mrx):
+    n = {min(rows) for rows in mX}
+    m = {max(columns) for columns in zip(*mX)}
+    return list(n & m)
+
+nR = int(input("Enter the number of rows:")) 
+nC = int(input("Enter the number of columns:"))
+
+mX = [] 
+print("Enter the entries rowwise:") 
+for i in range(nR):           
+    a =[] 
+    for j in range(nC):       
+         a.append(int(input())) 
+    mX.append(a)
+print(luckynum(mX))
