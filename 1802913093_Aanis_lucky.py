@@ -3,5 +3,5 @@ arMin = []
 for i in range(len(mat)):
     mini = min(mat[i])
     arMin.append(mini)
-minEle = max(arMin)
-print(minEle)
+maxEle = max(arMin)
+print(maxEle)
